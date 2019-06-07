@@ -1,0 +1,27 @@
+/*
+Instructions: 
+
+Write a program that does the following functions:
+
+prints out Good Morning + user's name when user types the word "Morning"
+prints out Good Night + user's name when user types the word "Night"
+prints out Good Night + user's name when user types the word "Birthday"
+
+When the user types "Goodbye", it will print out Good bye + user's name and end the program.
+
+Hint: use the while loop to have the program loop back to the question.
+
+Here is a sample output of the program:
+https://038-functions.micromodules.repl.run/
+
+*/
+
+#include <iostream>
+using namespace std;
+
+
+int main() {
+  
+  cout << "Hello, World!";
+  
+}
