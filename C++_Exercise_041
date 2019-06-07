@@ -1,0 +1,16 @@
+/*
+Instructions:
+
+Can you make the output of the program turn into Good Morning Sunshine! ?
+
+
+*/
+
+#include <iostream>
+    using namespace std;
+    int main()
+    {
+        char str[15] = "Good Morning";
+        cout << str;
+        return 0;
+    }
