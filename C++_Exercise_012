@@ -1,0 +1,22 @@
+/*
+Instructions:
+
+Write a program that takes as input an integer hrs which is the number of hours, and converts it into minutes (mins)  and seconds (sec). 
+
+Sample Output:
+
+Enter number of hours: 8
+
+8 hours = 480 minutes = 28800 seconds 
+
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  int hrs, mins, sec; 
+  
+  cout << "Hello World!";
+  return 0;
+}
