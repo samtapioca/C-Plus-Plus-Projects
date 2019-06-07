@@ -1,0 +1,25 @@
+/*
+Instructions:
+
+Write a program that input user's age and check if they are eligible to get their driver's license. A person is eligible for a driver's license if he is 18 or above. 
+
+Sample Output 
+Enter your age: 18
+You are eligible for a driver's license. 
+
+Reminder: 
+
+if (x <= 5)
+{
+     cout << x " is greater than 5";
+}
+
+
+*/
+
+#include <iostream>
+using namespace std; 
+
+int main() {
+  cout << "Hello World!\n";
+}
