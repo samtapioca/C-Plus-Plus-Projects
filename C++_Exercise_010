@@ -1,0 +1,23 @@
+/*
+Instructions:
+
+Write a program that has a hold the value of 23 as well as prints out the value of a.
+
+Reminder: 
+
+a = 23;
+
+
+
+
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  int a; 
+  
+  cout << a;
+  return 0;
+}
