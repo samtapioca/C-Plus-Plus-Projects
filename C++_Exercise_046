@@ -1,0 +1,29 @@
+/*
+Write a program that prints out Hello, World! using classes. 
+
+To add a class, add the following into your program: 
+
+class HelloWorld
+{
+   public:
+
+      void display() {
+      cout << "Hello World!" << endl;
+  }
+};
+
+*/
+
+#include<iostream>
+ using namespace std;
+ 
+//Insert class here 
+
+ 
+int main()
+{
+    HelloWorld hello;    //Creates an Object
+    hello.display();  //Calls a function
+ 
+    return 0;
+}
