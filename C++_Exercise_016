@@ -1,0 +1,25 @@
+/*
+Declare the following data types into your program and have the program print it out: 
+
+23
+5743.45
+dog
+
+You can name it any variable of your choice.
+
+Reminder: 
+
+int a; 
+
+cout << a ;
+
+*/
+#include <iostream>
+using namespace std;
+
+int main() {
+  //declare variables here
+  
+  cout << "" << endl;
+  return 0; 
+}
