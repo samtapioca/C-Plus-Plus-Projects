@@ -1,0 +1,36 @@
+/*
+Instructions: 
+
+Write a program that lets a user choose from the following classes:
+
+Psychic Class  (Weapon: Brains)
+Blaster Class   (Weapon: Fire balls)
+Cyborg Class  (Weapon: Guns)
+Rogue Class    (Weapon: Dagger)
+
+  The User inputs the first letter(uppercase or lowercase) of the class to choose from.
+  Depending on chosen job, display the weapon of the character.
+
+You can choose between using switch statement of if-else statements.
+
+Sample Output
+
+Choose from the following classes:
+(P) Pyschic Class
+(B) Blaster Class
+(C) Cyborg Class
+(R) Rogue Class
+
+Enter Class (P/B/C/R): R
+Your chosen weapon: Dagger
+
+
+*/
+
+
+#include <iostream>
+using namespace std; 
+
+int main() {
+  cout << "Hello World!\n";
+}
