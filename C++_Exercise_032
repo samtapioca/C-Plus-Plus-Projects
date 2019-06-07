@@ -1,0 +1,61 @@
+/*
+By now your project should be something like this:
+https://Vending-Machine-Part-1.micromodules.repl.run
+
+Make sure you've completed Part 1 before moving on to this part.
+
+Now that our program can display the items of the vending machine, let's have it return the item we are choosing.
+
+For this we'll use conditional statements. 
+
+You can choose to use switch statements or if statements, but I will show you the if statements process. 
+
+Add if statements to have the program display the item we are choosing.
+if (numofChoice == 1 )   
+{
+      cout << "You chose Chocolate Bar "; 
+}
+else if (numofChoice == 2 )   
+{
+      cout << "You chose Potato Chips ";
+}
+.
+.
+.
+.
+
+Try to complete the rest of the choices into your program.
+
+
+Here's the complete code and output of our vending machine so far:
+
+https://repl.it/@micromodules/Vending-Machine-Part-2
+
+
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    int numofChoice;
+    float amtMoney, amtChange;
+    string productChoice;
+    
+    cout << endl;
+    cout << "----Select an Item-----" << endl;
+    cout << "o=============================o" << endl;
+    cout << "| (1) Chocolate Bar - $ 10.00 |" << endl;
+    cout << "| (2) Potato Chips  - $ 17.00 |" << endl;
+    cout << "| (3) Gummy Bears   - $ 6.50  |" << endl;
+    cout << "| (4) Cup Noodles   - $ 21.30 |" << endl;
+    cout << "| (5) Peanuts       - $ 13.00 |" << endl;
+    cout << "o=============================o" << endl << endl;
+    
+    cout << "Enter Number of Choice: ";
+    cin >> numofChoice;
+    
+    //insert if statements here
+    
+}
