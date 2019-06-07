@@ -1,0 +1,21 @@
+/*
+Consider the following:
+
+A juice jug can hold 3.75 litre of juice. Your uncle ships jugs of juice to a local store every weekend. The cost of producing one litre of juice is $3.4 and the profit of each jug of juice is 2.45.
+
+Write a program that:
+
+Accepts the user to enter the total amount of juice produced on the weekend.
+Prints out the number of juice jugs needed to hold the juice.
+Prints out the cost of producing milk
+Prints out the profit for producing milk
+
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello World!\n";
+  return 0;
+}
