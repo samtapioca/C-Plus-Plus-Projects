@@ -1,0 +1,22 @@
+/*
+Instructions:
+
+Write the following program:
+
+Declare the following variables: num1, num2, num3, sum and average of data type int.
+Store the value 234 into num1, 43 in num2, and -18 in num3.
+Stores the average of num1, num2, and num3 into average.
+Print out the values of num1, num2, num3 and average. 
+
+
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  //declare variables here
+  
+  cout << "Hello World!\n";
+  return 0;
+}
