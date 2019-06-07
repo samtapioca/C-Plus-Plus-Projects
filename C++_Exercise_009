@@ -1,0 +1,26 @@
+/*
+Instructions: 
+
+Comments helps others, such as programmers, to understand the code you are building. 
+
+Take a look at the code. What description would you give to this code?
+
+Reminder: 
+
+// This is a single line comment
+
+/*
+ This is a multiline comment
+*/
+
+*/
+
+
+--Insert Comment Here--
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "The sum of 10 and 9 is: " << 10 + 9 << endl;
+  return 0;
+}
