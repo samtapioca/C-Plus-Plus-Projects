@@ -1,0 +1,27 @@
+/*
+Write a program that prints out the values of firstName, walkingHours, and carMinutes in the following text.
+
+Use your name for value of firstName.
+
+In the following sample output:
+value of firstName is "Ryan" 
+value of walkingHours is 3.6
+value of carMinutes is 50
+
+
+Sample Output
+My name is Ryan. 
+It takes me 3.6 hours to get to school by foot. 
+It takes me 50 minutes to get to school by car.
+
+*/
+ 
+ #include <iostream>
+ using namespace std;
+
+int main() {
+  
+  
+  cout << "Hello World!\n";
+  return 0;
+}
