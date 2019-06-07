@@ -1,0 +1,18 @@
+/*
+Instructions: 
+
+Write a program that asks the user to input a sentence using cin.get().
+The program will then print out the sentence you have entered.
+
+Sample Output
+Enter a sentence: A cat says meow.
+
+You entered: A cat says meow.
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello World!\n";
+}
