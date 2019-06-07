@@ -1,0 +1,29 @@
+/*
+Instructions:
+
+Write a C++ Program that accepts two numbers from the user and prints out the sum of the entered numbers.
+
+Sample Output
+First Number: 10
+Second Number: 5
+
+Sum: 15
+
+
+Reminder: 
+
+cout << "Enter a colour: << endl;
+cin >> colour;
+
+
+*/
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  
+  cout "Hello, World!" << ;
+  return 0;
+}
