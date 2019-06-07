@@ -1,0 +1,56 @@
+/*
+Instructions:
+
+Write a simple calculator program that contains different functions for different operators:
+
+Addition
+Subtraction
+Multiplication
+Division
+
+Sample Output
+Choose an Operation:
+(1) Addition
+(2) Subtraction
+(3) Multiplication
+(4) Division
+Enter number of choice: 2
+
+Enter First Number: 10
+Enter Second Number: 4
+
+10 - 4 = 6
+
+
+
+Remember: 
+int addition (int num1, int num2)
+{
+  sum = num += num2;
+return sum;
+}
+
+int main()
+{
+ //output statements
+//conditional statement
+}
+
+
+Hint:
+Refer to the following Chapters:
+3.4    Arithmetic Operators
+5.0    Variables and Statements
+6.0    Conditional Statements
+8.0    Functions
+
+*/
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+ cout << "Hello World!\n";
+ return 0;
+}
