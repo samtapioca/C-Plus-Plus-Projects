@@ -1,0 +1,21 @@
+/*
+Instructions:
+
+Write a simple ticketing program that does the following:
+Prints out the name of concert, location and number of tickets available. (Assume that there are only 5 tickets available).
+Ask the user to enter number of tickets they want to purchase.  If the user enters a number greater than 5, display a message stating their input is invalid. 
+Ask the user the type of ticket they want to buy. The user can choose to buy General Admission ($480), Silver Admission ($895) , and Gold Admission ($1355). 
+After they bought a ticket, print out the summary of purchase (Name of Concert, Number of Tickets bought, Ticket Type, Total Price of Tickets.)
+
+You can write any concert name and location of your choice.
+
+Here is a sample output:
+https://027-Simple-Ticketing-System.micromodules.repl.run
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello World!\n";
+}
