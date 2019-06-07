@@ -1,0 +1,23 @@
+/*
+Instructions:
+
+Write a program that outputs the total number of employees.
+
+Declare the variable employees of int data type inside the function.
+
+You can place any value.
+
+Example:
+
+int num = 10; 
+
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+//declare variable here
+  
+  cout << "Total number of employees: " ;
+}
