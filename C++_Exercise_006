@@ -1,0 +1,19 @@
+/*
+Instructions: 
+
+Write a C++ program that prints out your name and favourite season into a new line.
+
+Example:
+
+cout << "John" << endl;
+cout << "Summer";
+
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello, World!";
+  return 0;
+}
