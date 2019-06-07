@@ -1,0 +1,21 @@
+/*
+Instructions: 
+
+Write a C++ Program that accepts the user's name (as text) and age (as number) as input using the cin function. 
+
+The program prints out a sentence containing the user's name and age.
+
+Reminder: 
+
+cout << "Enter a colour: " << endl;
+cin >> colour; 
+
+*/
+
+
+#include <iostream>
+using namespace std; 
+
+int main() {
+  cout << "Hello World!\n";
+}
