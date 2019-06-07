@@ -1,0 +1,17 @@
+/*
+Instructions:
+  
+Create public class called Animal. 
+Create any object (Any object as long as it's an animal)
+Give three attributes to (E.g. age, kindofAnimal, name, colour and size.)
+Print out the object name followed by its attributes.
+
+*/
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello World!\n";
+}
