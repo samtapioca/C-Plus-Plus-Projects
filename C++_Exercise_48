@@ -1,0 +1,38 @@
+/*
+Can you have the program print out that Ryan is playing and Sandy is sleeping?
+*/
+
+#include <iostream>
+using namespace std;
+
+class Animal {
+  public:
+  
+  string name;
+  
+  //Behavior #1 
+  void sleep()
+  {
+    cout << name << " is sleeping" << endl;
+  }
+  
+  //Behavior #2 
+  void play()
+  {
+    cout << name << " is playing" << endl;
+  }
+};
+
+int main() 
+{
+  Animal cats;
+  Animal dogs;
+  
+  cats.name = "Ryan";
+  cats.sleep();
+  
+  dogs.name = "Sandy";
+  dogs.play();
+  
+  return 0;
+}
