@@ -1,0 +1,20 @@
+/*
+
+Instructions: 
+
+Write a C++ program that prints out "I am learning C++" into a new line. 
+
+Add the endl at the end of the output:
+
+cout << "Hello, World!" << endl;
+
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello, World!";
+  cout << "I am learning C++";
+  return 0;
+}
