@@ -1,0 +1,24 @@
+/*
+Instructions:
+
+Write a program that allows you to enter up to to 10 students and get the student's information (first name, last name, age, favourite subject) and print out the results.
+
+IF the users enters a number greater than 10, the program will display an error message and end the program.
+
+Else, it will call two functions: 
+enterStudents (Function that lets you input student details) 
+displayStudents(Function that displays the information of n of students)
+
+
+Here is a sample output:
+https://043-Arrays.micromodules.repl.run
+
+*/
+
+
+include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello World!\n";
+}
