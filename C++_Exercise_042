@@ -1,0 +1,21 @@
+/*
+Instructions: 
+
+Write a program that declares an array points and holds a maximum of 10 elements(it can be any number). Have the program display the elements.
+
+Reminder: 
+
+int array[3] = {13,24,65};
+
+cout << score[0];
+cout << score[1];
+cout << score[2];
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello World!\n";
+  return 0;
+}
