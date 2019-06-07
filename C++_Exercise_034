@@ -1,0 +1,157 @@
+/*
+By now your project should be something like this:
+https://repl.it/@micromodules/Vending-Machine-Part-3
+
+So far in our vending machine, we are now able to:
+Ask the user to select an Item
+Display the item they chose and price of the item
+Ask to user to input amount of money
+
+What we're going to do next is:
+Compute the amount of change to display back to the user
+Display an message stating that the user didn't not input enough money 
+
+The amount of change(We will use amtMoney of float type from Line 7) will be computed if the user enters a number greater or equal to its original price. 
+
+if (numofChoice == 1)
+{
+.
+.
+.
+//insert if statement here
+  if (amtMoney >= 10) 
+  {
+
+
+  }
+}
+
+
+The first item will be greater or equal to 10 because the first item cost $10.
+Do this for the following items.
+
+Inside our nested if statement, we'll place an assignment that will be used to compute the change, using amtChange variable we've used in Line 7.
+
+Let's add this inside our first nested if statement:
+if (amtMoney >= 10) 
+{
+   amtChange = amtMoney - 10.00;
+
+}
+Do this for the following items.
+
+Display the following messages as well:
+{
+amtChange = amtMoney - 10.00;
+cout << "Amount of Money Entered: " << endl;
+cout << "Your change is " << amtChange << endl;
+}
+Do this for the following items.
+
+Now that we've finished our nested if statements, let's move on to the else statement.
+
+Place an else statement under the if statement that displays if the user did not input enough money:
+if 
+{
+.
+.
+.
+}
+else
+{
+   cout << "Not enough money." << endl;
+}
+
+In the next exercise, we add the following features:
+
+If the user enters enters an amount less than the item's price, display a message stating that the user didn't input enough money and exit the program.
+After the user purchases one item, have the user to choose to buy another item or exit the program.
+
+
+Here's the complete code and output of our vending machine so far:
+https://repl.it/@micromodules/Vending-Machine-Part-4
+
+*/
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    int numofChoice;
+    float amtMoney, amtChange;
+
+    cout << endl;
+    cout << "----Select an Item-----" << endl;
+    cout << "o=============================o" << endl;
+    cout << "| (1) Chocolate Bar - $ 10.00 |" << endl;
+    cout << "| (2) Potato Chips  - $ 17.00 |" << endl;
+    cout << "| (3) Gummy Bears   - $ 6.50  |" << endl;
+    cout << "| (4) Cup Noodles   - $ 21.30 |" << endl;
+    cout << "| (5) Peanuts       - $ 13.00 |" << endl;
+    cout << "o=============================o" << endl << endl;
+    
+    cout << "Enter Number of Choice: ";
+    cin >> numofChoice;
+
+    if (numofChoice == 1 )   
+    {
+      cout << endl;
+      cout << "You chose Chocolate Bar" << endl;
+      cout << "Price: $10.00 " << endl;
+      cout << "Enter amount of money: ";
+      cin >> amtMoney;
+      
+      //insert if statement here
+
+    }
+    else if (numofChoice == 2 )   
+    {
+      cout << endl;
+      cout << "You chose Potato Chips " << endl;
+      cout << "Price: $17.00 " << endl;
+      cout << "Enter amount of money: ";
+      cin >> amtMoney;
+      
+      //insert if statement here
+      
+
+    }
+    else if (numofChoice == 3)    
+    {
+      cout << endl;
+      cout << "You chose Gummy Bears " << endl;
+      cout << "Price: $6.50 " << endl;
+      cout << "Enter amount of money: ";
+      cin >> amtMoney;
+      
+ 
+    }
+    else if (numofChoice == 4 )   
+    {
+      cout << endl;
+      cout << "You chose Cup Noodles" << endl;
+      cout << "Price: $21.30 " << endl;
+      cout << "Enter amount of money: ";
+      cin >> amtMoney;
+      
+      //insert if statement here
+
+    }
+    else if (numofChoice == 5 )   
+    {
+      cout << endl;
+      cout << "You chose Peanuts" << endl;
+      cout << "Price: $13.00 " << endl;
+      cout << "Enter amount of money: ";
+      cin >> amtMoney;
+      
+      //insert if statement here
+
+    }
+    else
+   {
+     cout << "Invalid Number. Enter a number from 1-5." << endl;
+   }
+}
