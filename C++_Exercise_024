@@ -1,0 +1,25 @@
+/*
+Instructions:
+
+Write a program that takes the input of the age of 3 of Sam, Jam and Pam. 
+The program prints out who is the oldest between the three of them.
+
+
+Sample Output
+
+Enter age of Sam: 12
+Enter age of Jam: 18
+Enter age of Pam: 25
+
+Pam is the oldest!
+
+*/
+
+
+#include <iostream>
+using namespace std; 
+
+int main() {
+  cout << "Hello World!";
+  return 0;
+}
