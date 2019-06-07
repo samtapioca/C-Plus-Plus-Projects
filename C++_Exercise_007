@@ -1,0 +1,22 @@
+/*
+Instructions: 
+
+Comment out the line that prints out "World".
+
+Add a // to the front of the line. Like this:
+
+// cout << "World";
+
+Note: You should only be able to see "Hello" after you run the program. That's how it will be displayed if you have done it right.
+
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+  cout << "Hello";
+  cout << "World";
+  return 0;
+}
