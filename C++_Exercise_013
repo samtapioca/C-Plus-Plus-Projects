@@ -1,0 +1,21 @@
+/*
+Instructions:
+We can use data types to determinate the value of our data in our C++ program.
+
+Add a data type declaration so that the program will print out the value of 3.
+
+Reminder: 
+
+int a = 3;
+
+*/
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    b = 43;
+  
+   cout << b << endl;
+}
