@@ -1,0 +1,49 @@
+/*
+Let's create a Simple Vending Program. 
+At the end of this exercise, you will have a program that can select items, enter amount of money, display item of choice and the amount of change back. 
+Your program will also be able to tell the user their money is not enough, and whether they want to buy another item again. 
+
+This project covers the everything you have learned so far including:
+Variables
+Assignments
+Conditional Statements
+Loops
+
+Let's get started! 
+
+ First, declare the following variables into the program:
+int numofChoice;
+float amtMoney, amtChange;
+
+ Then, create a screen for the user to decide what to buy:
+cout << "Select an Item:  << endl;
+cout << "(1) Chocolate Bar - $ 10.00" << endl;
+cout << "(2) Potato Chips - $ 17.00 " << endl;
+cout << "(3) Gummy Bears  - $ 6.50  " << endl;
+cout << "(4) Cup Noodles  - $ 21.30 " << endl;
+cout << "(5) Peanuts      - $ 13.00 " << endl;
+
+Afterwards, create one more output statement as well as an input to take the user's input of choice.
+ 
+cout << "Enter Number of Choice: ";
+cin >> numofChoice;
+
+When you run your program, you should have something like this:
+
+https://Vending-Machine-Part-1.micromodules.repl.run
+
+
+*/
+
+
+#include <iostream>
+using namespace std; 
+
+int main() {
+  //declare variables here
+  
+  
+  cout << "Hello, World!";
+  return 0;
+  
+}
