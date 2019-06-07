@@ -1,0 +1,26 @@
+/*
+Have the program display the following output:
+
+Write a program that displays five types of jobs and includes the following details:
+Job Title
+Name of Company
+Three types of duties in the job
+
+Example
+Job Title: Cashier
+Job Description: WellMort Limited
+My job is to count the money in the cash register
+My job is to sell items to customers
+My job is to issue receipts to customers
+
+
+You may use this template to guide you through this exercise:
+https://repl.it/@micromodules/050-Inheritance
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello World!\n";
+}
