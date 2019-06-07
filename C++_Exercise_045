@@ -1,0 +1,27 @@
+/*
+To be able to declare using std::string, we'll need to add another library to our program, called string.
+
+#include <string>
+
+Afterwards, write a program that asks the user for his favourite soft drink and ice cream.
+
+std::getLine(std::cin, faveSoftDrink);
+The program will print out the results.
+
+Sample Output
+What is your favourite soft drink? Sprite
+
+What is your favourite ice cream? Chocolate Ice Cream
+
+Your favourite soft drink is Sprite
+Your favourite ice cream is Chocolate Ice Cream
+
+
+*/
+
+#include <iostream>
+//declare <string> here
+
+int main() {
+  std::cout << "Hello World!\n";
+}
