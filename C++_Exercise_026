@@ -1,0 +1,37 @@
+/*
+Instructions: 
+
+Write a simple ticket booking program that let's the user buy tickets for a specific artist.
+There are only 5 tickets available for each purchase. 
+
+If the user inputs a number greater 5 and less than 1, the program should tell the user to input again.
+
+The user will be asked how many tickets they want and what type of ticket (General Admission, Silver Admission, and Gold Admission). 
+
+If the user inputs a number greater 5 and less than 1, the program should tell the user to input again.
+
+Afterwards, the program will display the following:
+Name of the concert
+Number of Tickets
+Tickets
+A message saying "Thank you for your buying!"
+
+The program will then end.
+
+
+Here is a sample for the following program: 
+https://ConcertTicket.micromodules.repl.run
+
+
+
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  
+  
+  cout << "Hello World!\n";
+  return 0;
+}
