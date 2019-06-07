@@ -1,0 +1,38 @@
+/*
+Functions allow our program to perform individual tasks.
+
+When you run the program, it will produce errors because every program always start from the main function.
+
+Have the program call function output() in the main() function:
+
+int main() 
+{
+   output();
+
+   return 0;
+}
+
+
+*/
+
+#include <iostream>
+using namespace std;
+
+int output() 
+{
+  
+int a = 1;
+int b = 2;
+  cout << a << endl;
+  cout << b << endl;
+  
+  return 0;
+}
+
+
+int main() 
+{
+  //insert function here
+
+  return 0;
+}
